@@ -1,0 +1,8 @@
+.service {
+    border: 1px solid khaki;
+    border-radius: 7px;
+    padding-bottom: 10px;
+    display: grid;
+    justify-content: center;
+    /* align-items: center; */
+}
