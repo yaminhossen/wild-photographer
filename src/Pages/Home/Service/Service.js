@@ -10,11 +10,13 @@ const Service = ({ service }) => {
     }
     return (
         <div className='service'>
-            <img src={img} alt="" />
-            <h2>{name}</h2>
-            <p>price:{price}</p>
-            <p><small>description{description}</small></p>
-            <button onClick={() => navigateToServiceDetail(id)} className='btn btn-warning'>Book:{name}</button>
+            <img className='img-fluid' src={img} alt="" />
+            <div className='service-info'>
+                <h2>{name}</h2>
+                <p>price : $ {price}</p>
+                <p><small>description{description}</small></p>
+            </div>
+            <button onClick={() => navigateToServiceDetail(id)} >Booking for : {name}</button>
         </div>
     );
 };

@@ -1,12 +1,15 @@
 .services-title {
     text-align: center;
-    color: blue;
+    color: rgb(184, 54, 173);
+    margin: 40px;
 }
 
 .services-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
+    grid-gap: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 @media only screen and (max-width:576px) {
