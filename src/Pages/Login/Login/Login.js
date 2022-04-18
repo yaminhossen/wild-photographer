@@ -20,6 +20,14 @@ const Login = () => {
     const emailRef = useRef('');
     const passwordRef = useRef('');
     const navigate = useNavigate();
+    let errorElement;
+
+    if (error) {
+
+        errorElement = <p className='text-danger'>Error: {error?.message}</p>
+
+
+    }
 
     if (user) {
         navigate(from, { replace: true });
@@ -51,14 +59,14 @@ const Login = () => {
                     <Form.Label>Password</Form.Label>
                     <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
-                </Form.Group>
-                <Button variant="primary" type="submit">
-                    Submit
+
+                <Button variant="primary w-100 my-4 mx-auto d-block" type="submit">
+                    Login
                 </Button>
             </Form>
+            {errorElement}
             <p>New to this site? <Link to='/register' className='text-danger text-decoration-none' onClick={navigateRegister}>please register</Link></p>
+            <p>Forgete Password? <Link to='/register' className='text-danger text-decoration-none' onClick={navigateRegister}>Reset Password</Link></p>
             <SocialLogin></SocialLogin>
         </div>
     );
