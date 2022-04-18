@@ -1,14 +1,14 @@
 [
     {
         "id": 1,
-        "name": "Wedding Photography",
+        "name": "Wedding photo",
         "price": 259,
         "description": "This is a wedding photo of my lots of program. And i think this is bueautiful",
         "img": "https://i.ibb.co/G38MCmZ/samantha-gades-odt2t81d-Zt-Q-unsplash.jpg"
     },
     {
         "id": 2,
-        "name": "Portrait Photography",
+        "name": "Portrait photo",
         "price": 199,
         "description": "This is not like a photo this is show a history",
         "img": "https://i.ibb.co/frVNnYF/jyotirmoy-gupta-fp-BNEz7-N14s-unsplash.jpg"
