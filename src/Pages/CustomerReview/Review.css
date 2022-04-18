@@ -1,0 +1,20 @@
+.review {
+    /* border: 1px solid magenta; */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px 3px rgba(97, 97, 96, 0.2);
+
+}
+
+.img-fluid {
+    height: 250px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.person {
+    width: 70px;
+    height: 70px;
+    border-radius: 20%;
+    margin-right: 20px;
+}
