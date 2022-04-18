@@ -1,6 +1,7 @@
+import { async } from '@firebase/util';
 import React, { useRef } from 'react';
 import { Button, Form } from 'react-bootstrap';
-import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
@@ -33,6 +34,8 @@ const Login = () => {
         navigate(from, { replace: true });
     }
 
+    const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
+
     const handleSubmit = event => {
         event.preventDefault();
         const email = emailRef.current.value;
@@ -43,6 +46,12 @@ const Login = () => {
 
     const navigateRegister = event => {
         navigate('/register');
+    }
+
+    const resetPassword = async () => {
+        const email = emailRef.current.value;
+        await sendPasswordResetEmail(email);
+        alert('Sent email');
     }
 
     return (
@@ -65,8 +74,8 @@ const Login = () => {
                 </Button>
             </Form>
             {errorElement}
-            <p>New to this site? <Link to='/register' className='text-danger text-decoration-none' onClick={navigateRegister}>please register</Link></p>
-            <p>Forgete Password? <Link to='/register' className='text-danger text-decoration-none' onClick={navigateRegister}>Reset Password</Link></p>
+            <p>New to this site? <Link to='/register' className='text-primary text-decoration-none' onClick={navigateRegister}>please register</Link></p>
+            <p>Forgete Password? <Link to='/register' className='text-primary text-decoration-none' onClick={resetPassword}>Reset Password</Link></p>
             <SocialLogin></SocialLogin>
         </div>
     );
