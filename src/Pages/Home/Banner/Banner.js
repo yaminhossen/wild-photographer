@@ -21,8 +21,8 @@ const Banner = () => {
                 />
                 <Carousel.Caption>
                     <h1 className='mb-4'>Wild Photographer</h1>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3>The Mountain</h3>
+                    <p>This is the best Mountain photo of my journey</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -33,8 +33,12 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h1 className='mb-4'>Wild Photographer</h1>
+                    <h3>
+                        The chameleon
+
+                    </h3>
+                    <p>Even if you don't see, he sees you.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -45,9 +49,10 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>Third slide label</h3>
+                    <h1 className='mb-4'>Wild Photographer</h1>
+                    <h3>The king of jungle</h3>
                     <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                        Whats up man. I am the king of jungle. I am the Lion.
                     </p>
                 </Carousel.Caption>
             </Carousel.Item>

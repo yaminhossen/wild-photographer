@@ -1,0 +1,9 @@
+.blog-section h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: rgb(54, 48, 139);
+}
+
+.blog-section {
+    margin: 100px;
+}

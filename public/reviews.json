@@ -3,31 +3,31 @@
         "id": 1,
         "service": "Weeding Photography",
         "name": "John Bravo",
-        "description": "This is so mannerale person",
+        "description": "I am happy with his service and he is a good person",
         "img": "https://i.ibb.co/G38MCmZ/samantha-gades-odt2t81d-Zt-Q-unsplash.jpg",
         "person": "https://i.ibb.co/vwrcCVP/ben-parker-Oh-KEl-Ok-Q3-RE-unsplash.jpg"
     },
     {
-        "id": 1,
+        "id": 2,
         "service": "Short Film",
         "name": "John Bravo",
-        "description": "This is so mannerale person",
+        "description": "He made me a very good record i appreciate him  ",
         "img": "https://i.ibb.co/frNb8JG/jakob-owens-9p-Rbu-WJ6-Tv-Q-unsplash.jpg",
         "person": "https://i.ibb.co/cTWgJC7/fatih-yildirim-qp30-IRLPgsg-unsplash.jpg"
     },
     {
-        "id": 1,
+        "id": 3,
         "service": "Wild Photography",
         "name": "John Bravo",
-        "description": "This is so mannerable person and this service is so much good",
+        "description": "I need some extrem level animal photo and thats what he gave me. ",
         "img": "https://i.ibb.co/wwb465y/suheyl-burak-e-DAizeg-BVm-M-unsplash.jpg",
         "person": "https://i.ibb.co/KF6P6Bk/imansyah-muhamad-putera-n4-Kew-LKFOZw-unsplash.jpg"
     },
     {
-        "id": 1,
+        "id": 4,
         "service": "Vider Recording",
         "name": "John Bravo",
-        "description": "This is so mannerale person",
+        "description": "Really he is good photographer i appreciate him.",
         "img": "https://i.ibb.co/dcVf80f/sam-mcghee-Kie-CLNz-Ko-Bo-unsplash.jpg",
         "person": "https://i.ibb.co/Nt2f55j/roman-holoschchuk-O-98kc-Pe0-P8-unsplash.jpg"
     }
